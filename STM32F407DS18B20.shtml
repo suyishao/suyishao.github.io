@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <meta http-equiv="refresh" content="1">
-<title>STM32F407������LWIP</title>
+<title>STM32F407开发板LWIP</title>
 <style type="text/css">
 
 .ul1{margin:0;padding:0; list-style:none;}
@@ -27,37 +27,37 @@
 
 <div class="menu">
 	<ul class="ul1">
-    	<li class="li1"><a href="index.html">��ҳ</a></li>
-        <li class="li1"><a href="STM32F407LED.shtml">LED����</a></li>
-		<li class="li1"><a href="STM32F407WATER.shtml">ˮ�ÿ���</a></li>
+    	<li class="li1"><a href="index.html">主页</a></li>
+        <li class="li1"><a href="STM32F407LED.shtml">LED控制</a></li>
+		<li class="li1"><a href="STM32F407WATER.shtml">水泵控制</a></li>
         <li class="li1"><a href="STM32F407ADC.shtml">ADC</a></li>
-        <li class="li1"><a href="STM32F407RTC.shtml">RTCʵʱʱ��</a></li> 
+        <li class="li1"><a href="STM32F407RTC.shtml">RTC实时时钟</a></li> 
     </ul>
 </div>
 <div class="menu">
 	<ul class="ul1">
-		<li class="li1"><a href="STM32F407TEMPERATE.shtml">�ڲ��¶ȴ�����</a></li>
-    	<li class="li1"><a href="STM32F407DS18B20.shtml">DS18B20�¶ȴ�����</a></li>
-        <li class="li1"><a href="STM32F407DHT11.shtml">DHT11ʪ�ȴ�����</a></li>
-        <li class="li1"><a href="STM32F407RTC.shtml">RTCʵʱʱ��</a></li>
-        <li class="li1"><a href="http://eboard.taobao.com" target="_blank">��ϵ����</a></li>
+		<li class="li1"><a href="STM32F407TEMPERATE.shtml">内部温度传感器</a></li>
+    	<li class="li1"><a href="STM32F407DS18B20.shtml">DS18B20温度传感器</a></li>
+        <li class="li1"><a href="STM32F407DHT11.shtml">DHT11湿度传感器</a></li>
+        <li class="li1"><a href="STM32F407RTC.shtml">RTC实时时钟</a></li>
+        <li class="li1"><a href="http://eboard.taobao.com" target="_blank">联系我们</a></li>
     </ul>
 </div>
  
 
 <div style="margin-top:30px;">
-��ҳ��������ʾ��������DS18B20�¶ȴ�����ֵ��
+此页面用来显示开发板上DS18B20温度传感器值。
 </div>
 <div style="background-color:#0066CC;color:#fff;margin-top:30px;  ">
                 <h3  >
-                  <span >DS18B20�¶ȴ�������ʾ</span>
+                  <span >DS18B20温度传感器显示</span>
                 </h3>
 </div>
 
 <div align="center">
 <table border="1" cellpadding="10"> 
 <tr>
-  <td width="200">DS18B20�¶ȴ�����ֵ</td>
+  <td width="200">DS18B20温度传感器值</td>
   <td width="200"><!--#ds18b20-->&deg;C</td>
 </tr>
 </table>

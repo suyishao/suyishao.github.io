@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>STM32F407������LWIP</title>
+<title>STM32F407开发板LWIP</title>
 <style type="text/css">
 
 .ul1{margin:0;padding:0; list-style:none;}
@@ -24,35 +24,35 @@
 <div style="background-color:#FFFFFF;">
 <div class="menu">
 	<ul class="ul1">
-    	<li class="li1"><a href="index.html">��ҳ</a></li>
-        <li class="li1"><a href="STM32F407LED.shtml">LED����</a></li>
-		<li class="li1"><a href="STM32F407WATER.shtml">ˮ�ÿ���</a></li>
+    	<li class="li1"><a href="index.html">主页</a></li>
+        <li class="li1"><a href="STM32F407LED.shtml">LED控制</a></li>
+		<li class="li1"><a href="STM32F407WATER.shtml">水泵控制</a></li>
         <li class="li1"><a href="STM32F407ADC.shtml">ADC</a></li>
-        <li class="li1"><a href="STM32F407RTC.shtml">RTCʵʱʱ��</a></li> 
+        <li class="li1"><a href="STM32F407RTC.shtml">RTC实时时钟</a></li> 
     </ul>
 </div>
 <div class="menu">
 	<ul class="ul1">
-		<li class="li1"><a href="STM32F407TEMPERATE.shtml">�ڲ��¶ȴ�����</a></li>
-    	<li class="li1"><a href="STM32F407DS18B20.shtml">DS18B20�¶ȴ�����</a></li>
-        <li class="li1"><a href="STM32F407DHT11.shtml">DHT11ʪ�ȴ�����</a></li>
-        <li class="li1"><a href="STM32F407RTC.shtml">RTCʵʱʱ��</a></li>
-        <li class="li1"><a href="http://eboard.taobao.com" target="_blank">��ϵ����</a></li>
+		<li class="li1"><a href="STM32F407TEMPERATE.shtml">内部温度传感器</a></li>
+    	<li class="li1"><a href="STM32F407DS18B20.shtml">DS18B20温度传感器</a></li>
+        <li class="li1"><a href="STM32F407DHT11.shtml">DHT11湿度传感器</a></li>
+        <li class="li1"><a href="STM32F407RTC.shtml">RTC实时时钟</a></li>
+        <li class="li1"><a href="http://eboard.taobao.com" target="_blank">联系我们</a></li>
     </ul>
 </div>
 <div style="margin-top:30px;">
-��ҳ�����ʵʱ�鿴�Ϳ���ˮ�õ�״̬��
+此页面可以实时查看和控制水泵的状态。
 </div>
 <div style="background-color:#0066CC;color:#fff;margin-top:30px; ">
                 <h3  >
-                  <span >ˮ�õ�״̬</span>
+                  <span >水泵的状态</span>
                 </h3>
 </div>
 <div align="center">
 
 <table border="1" cellpadding="10"> 
 <tr>
-  <td width="200">״̬</td>
+  <td width="200">状态</td>
   <td width="200"><!--#water--></td>
 </tr>
 </table>
@@ -60,7 +60,7 @@
 </div>
 <div style="width:1000px; background-color:#0066CC;color:#fff;">
                 <h3>
-                  <span style="text-align:center;">ˮ�ÿ���</span>
+                  <span style="text-align:center;">水泵控制</span>
                 </h3>
 </div>
 <div style="margin-top:30px; text-align:center;">
